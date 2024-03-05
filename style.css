@@ -7,12 +7,12 @@
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
-
 
 .conteudo-principal {
     display: flex;
@@ -23,11 +23,13 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
 .titulo-principal {
     text-align: left;
     width: 100%;
     font-size: 32px;
 }
+
 .titulo-principal span {
     color: var(--verde);
 }
