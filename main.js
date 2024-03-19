@@ -17,4 +17,4 @@ for (let i=0; i < botoes.length; i++) {
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 const contadores = document.querySelectorAll (".contador");
 
-const tempoAtual = new Date();
+const tempoAtual = new Date(); //retorna data atual do computador
