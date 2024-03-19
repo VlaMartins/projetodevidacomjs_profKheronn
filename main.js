@@ -10,5 +10,5 @@ for (let i=0; i < botoes.length; i++) {
     }
 }
 
-let paragrafo = document.querySelector("#minhaDiv p").textContent;
+document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 alert(paragrafo)
