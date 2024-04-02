@@ -13,11 +13,10 @@ for (let i=0; i < botoes.length; i++) {
 
     }
 }
-
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 const contadores = document.querySelectorAll (".contador");
-
 const tempoAtual = new Date(); //retorna data atual do computador
-const tempoObjetivo1 = new Date("2024-10-13T00:00:00");
+const tempoObjetivo1 = new Date("2024-05-02T00:00:00"); // formato de data padrao com hifem e um T para tempo
+let tempofinal = tempoObjetivo1 - tempoAtual; 
 
-contadores[0].textContent = tempoObjetivo1 - tempoAtual; 
+let segundos =  tempofinal/1000;
