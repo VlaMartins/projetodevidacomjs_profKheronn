@@ -29,3 +29,8 @@ dias %= 24;
 
 contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 
+
+console.log(dias);
+console.log(horas);
+console.log(minutos);
+
