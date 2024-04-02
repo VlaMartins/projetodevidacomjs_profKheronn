@@ -18,7 +18,7 @@ const tempoAtual = new Date(); //retorna data atual do computador
 const tempoObjetivo1 = new Date("2024-05-02T00:00:00"); // formato de data padrao com hifem e um T para tempo
 let tempofinal = tempoObjetivo1 - tempoAtual; 
 
-let segundos =  tempofinal / 1000;
+let segundos = Math.floor(tempofinal / 1000);
 let minutos = segundos / 60; 
 let horas = minutos / 60;
 let dias = horas / 24; 
