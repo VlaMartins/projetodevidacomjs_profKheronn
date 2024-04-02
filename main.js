@@ -15,7 +15,7 @@ for (let i=0; i < botoes.length; i++) {
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 const contadores = document.querySelectorAll (".contador");
 const tempoAtual = new Date(); //retorna data atual do computador
-const tempoObjetivo1 = new Date("2024-05-02T00:00:00"); // formato de data padrao com hifem e um T para tempo
+const tempoObjetivo1 = new Date("2024-04-19T00:00:00"); // formato de data padrao com hifem e um T para tempo
 let tempofinal = tempoObjetivo1 - tempoAtual; 
 
 let segundos = Math.floor (tempofinal / 1000);
