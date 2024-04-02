@@ -10,7 +10,6 @@ for (let i=0; i < botoes.length; i++) {
         }
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
-
     }
 }
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
@@ -21,4 +20,7 @@ let tempofinal = tempoObjetivo1 - tempoAtual;
 
 let segundos =  tempofinal / 1000;
 let minutos = segundos / 60; 
-let hora = minutos / 60;
+let horas = minutos / 60;
+let dias = horas / 24; 
+
+
