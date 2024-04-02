@@ -23,14 +23,9 @@ let minutos = Math.floor (segundos / 60);
 let horas = Math.floor (minutos / 60);
 let dias = Math.floor (horas / 24); 
 
-segundos %=  60;
+segundos %=  60; // sinal de porcentagem traz o resto da divisao
 minutos %= 60;
 dias %= 24;
 
-contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-
-
-console.log(dias);
-console.log(horas);
-console.log(minutos);
+return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 
