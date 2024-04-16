@@ -34,8 +34,9 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-
 }
 
-contadores[0].textContent = calculaTempo (tempoObjetivo1);
+for (let i=0; i < contadores.length; i++){
+    contadores[0].textContent = calculaTempo (tempoObjetivo1);
+}
 
