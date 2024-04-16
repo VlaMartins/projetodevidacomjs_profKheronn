@@ -37,6 +37,6 @@ function calculaTempo(tempoObjetivo) {
 }
 
 for (let i=0; i < contadores.length; i++){
-    contadores[0].textContent = calculaTempo (tempoObjetivo1);
+    contadores[i].textContent = calculaTempo (tempos[i]);
 }
 
