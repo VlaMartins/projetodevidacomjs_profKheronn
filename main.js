@@ -16,9 +16,9 @@ for (let i = 0; i < botoes.length; i++) {
 const contadores = document.querySelectorAll(".contador");
 const tempoAtual = new Date(); //retorna data atual do computador
 const tempoObjetivo1 = new Date("2024-04-19T00:00:00"); // formato de data padrao com hifem e um T para tempo
-const tempoObjetivo2 = new Date("2024-04-19T00:00:00");
-const tempoObjetivo3 = new Date("2024-04-19T00:00:00");
-const tempoObjetivo4 = new Date("2024-04-19T00:00:00");
+const tempoObjetivo2 = new Date("2024-07-08T00:00:00");
+const tempoObjetivo3 = new Date("2024-04-18T00:00:00");
+const tempoObjetivo4 = new Date("2024-04-17T00:00:00");
 
 function calculaTempo(tempoObjetivo) {
     let tempofinal = tempoObjetivo - tempoAtual;
