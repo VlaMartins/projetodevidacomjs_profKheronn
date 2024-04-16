@@ -20,6 +20,8 @@ const tempoObjetivo2 = new Date("2024-07-08T00:00:00");
 const tempoObjetivo3 = new Date("2024-04-18T00:00:00");
 const tempoObjetivo4 = new Date("2024-04-17T00:00:00");
 
+const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+
 function calculaTempo(tempoObjetivo) {
     let tempofinal = tempoObjetivo - tempoAtual;
 
