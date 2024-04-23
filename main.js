@@ -42,3 +42,4 @@ function atualizaCronometro() {
     }
 }
 
+setInterval (atualizaCronometro, 1000); //  1000 por que em um segundo tem 1000 milissegundos
