@@ -42,10 +42,9 @@ function atualizaCronometro() {
     }
 }
 
-
-function comecaCronometro (){
+function comecaCronometro() {
     atualizaCronometro();
-    setInterval (atualizaCronometro, 1000); //  1000 por que em um segundo tem 1000 milissegundos
+    setInterval(atualizaCronometro, 1000); //  1000 por que em um segundo tem 1000 milissegundos
 }
 
 comecaCronometro();
