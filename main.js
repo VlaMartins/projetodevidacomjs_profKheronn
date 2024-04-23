@@ -53,3 +53,5 @@ function comecaCronometro() {
 }
 
 comecaCronometro();
+
+// o return tem a função de interromper uma funcao... se a coisa for verdadeira, ele nem busca o resto...
