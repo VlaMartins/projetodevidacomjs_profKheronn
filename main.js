@@ -56,8 +56,8 @@ let contador = `<div class="contador-digito">
                 </div> `
 
     if (tempofinal > 0){
-        return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";}
-        else{
+        return contador
+    } else{
             return "Prazo Finalizado!"
         }
     }
