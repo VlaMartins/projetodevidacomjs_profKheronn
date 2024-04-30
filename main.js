@@ -41,7 +41,7 @@ let contador = `<div class="contador-digito">
                 </div> 
                 
                 <div class="contador-digito">
-                    <p class="contador-digito-numero">${horas}</p>
+                    <p class="contador-digito-numero"> ${horas}</p>
                     <p class="contador-digito-texto"> horas </p>
                 </div> 
 
@@ -51,7 +51,7 @@ let contador = `<div class="contador-digito">
                 </div> 
                 
                 <div class="contador-digito">
-                    <p class="contador-digito-numero">${segundos}</p>
+                    <p class="contador-digito-numero"> ${segundos}</p>
                     <p class="contador-digito-texto"> segundos </p>
                 </div> `
 
