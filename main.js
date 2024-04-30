@@ -34,6 +34,12 @@ function calculaTempo(tempoObjetivo) {
     segundos %= 60; // sinal de porcentagem traz o resto da divisao
     minutos %= 60;
     horas %= 24;
+
+let contador = `<div class="contador-digito">
+                <p class="contador-digito-numero"></p>
+                <p class="contador-digito-texto"></p>
+                </div> `
+
     if (tempofinal > 0){
         return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";}
         else{
@@ -43,7 +49,7 @@ function calculaTempo(tempoObjetivo) {
 
 function atualizaCronometro() {
     for (let i = 0; i < contadores.length; i++) {
-        contadores[i].textContent = calculaTempo(tempos[i]);
+        contadores[i].innerHTML = calculaTempo(tempos[i]);
     }
 }
 
