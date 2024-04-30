@@ -37,7 +37,23 @@ function calculaTempo(tempoObjetivo) {
 
 let contador = `<div class="contador-digito">
                 <p class="contador-digito-numero"></p>
-                <p class="contador-digito-texto"></p>
+                <p class="contador-digito-texto"> dias </p>
+                </div> 
+                
+                <div class="contador-digito">
+                <p class="contador-digito-numero"></p>
+                <p class="contador-digito-texto"> horas </p>
+                </div> 
+
+                <div class="contador-digito">
+                <p class="contador-digito-numero"></p>
+                <p class="contador-digito-texto"> minutos </p>
+                </div> 
+                
+                
+                <div class="contador-digito">
+                <p class="contador-digito-numero"></p>
+                <p class="contador-digito-texto"> segundos </p>
                 </div> `
 
     if (tempofinal > 0){
